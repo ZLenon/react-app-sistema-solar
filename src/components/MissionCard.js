@@ -9,7 +9,6 @@ class MissionCard extends React.Component {
         <div data-testid="mission-year">{year}</div>
         <div data-testid="mission-country">{country}</div>
         <div data-testid="mission-destination">{destination}</div>
-
       </div>
     );
   }
