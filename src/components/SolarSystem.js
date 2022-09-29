@@ -11,6 +11,7 @@ class SolarSystem extends React.Component {
         <Title headline="Planetas" />
         <div>
           {planets.map((param) => (<PlanetCard
+            key={ param.name }
             planetName={ param.name }
             planetImage={ param.image }
           />))}
